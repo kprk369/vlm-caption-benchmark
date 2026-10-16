@@ -1,0 +1,5 @@
+﻿caption_model,caption_model_label,captions,mean_accuracy,mean_coverage,mean_clarity,mean_quality,quality_ci95_low,quality_ci95_high,raw_usable_vote_rate,majority_usable_rate,format_valid_rate,final_compliant_usable_rate,mean_judge_confidence,invalid_confidence_values,quality_rank
+qwen3.8:27b-q4_K_M,Qwen3.8 27B Q4_K_M,120,4.8146,4.8688,4.9813,4.8882,4.8583,4.916,0.9917,0.9917,0.9917,0.9833,0.9823,240,1
+gemma4:12b-it-q8_0,Gemma 4 12B Q8_0,120,4.6667,4.7146,4.9917,4.791,4.7472,4.8319,0.975,0.975,1.0,0.975,0.9767,240,2
+qwen3-vl:2b-instruct-q8_0,Qwen3-VL 2B Q8_0,120,4.4188,4.3208,4.1958,4.3118,4.1806,4.4285,0.8771,0.8583,0.0,0.0,0.9619,237,3
+gemma3:4b-it-q8_0,Gemma 3 4B Q8_0,120,3.925,4.2625,4.6188,4.2688,4.1868,4.3465,0.7542,0.7083,0.9167,0.6583,0.954,240,4

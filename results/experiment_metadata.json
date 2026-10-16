@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "exported_at_utc": "2026-10-13T14:09:07.212707+00:00",
+  "dataset": {
+    "images": 120,
+    "categories": 6,
+    "images_per_category": 20,
+    "availability": "Images and Unsplash Dataset rows are not redistributed. See docs/DATA.md."
+  },
+  "caption_generation": {
+    "rows": 480,
+    "prompt_sha256": "7ef0f51c2abf690a767ef1693c6dd0b8a0ff61011e736fff2baa4e7f1fa8b96d",
+    "seed": 42,
+    "temperature": 0.0,
+    "models": [
+      {
+        "model": "gemma3:4b-it-q8_0",
+        "digest": "69f0d5459ab02f396afeea364c65b11017b9be4ba9da2c0b46d7e553fd76a282",
+        "parameter_size": "3.9B",
+        "quantization": "Q8_0",
+        "captions": 120
+      },
+      {
+        "model": "gemma4:12b-it-q8_0",
+        "digest": "41c402fdddc2a87e40a4391caa400961e93786383fbb92a88fc764c333c25322",
+        "parameter_size": "11.9B",
+        "quantization": "Q8_0",
+        "captions": 120
+      },
+      {
+        "model": "qwen3-vl:2b-instruct-q8_0",
+        "digest": "9674b2259d72aeac7d8ee4743e01fe1e9bb624f93110c4bcd87d9d5844ab3bf7",
+        "parameter_size": "2.1B",
+        "quantization": "Q8_0",
+        "captions": 120
+      },
+      {
+        "model": "qwen3.8:27b-q4_K_M",
+        "digest": "25b843619e944cd0ae6069f94ff4e5e26a16e109ccbc0a66a0f05979ed70098e",
+        "parameter_size": "27.3B",
+        "quantization": "Q4_K_M",
+        "captions": 120
+      }
+    ]
+  },
+  "judging": [
+    {
+      "file": "raw/judgments/qwen38-pass-1.csv",
+      "pass_id": "qwen38-pass-1",
+      "judge_model": "qwen3.8:27b-q4_K_M",
+      "judge_model_digest": "25b843619e944cd0ae6069f94ff4e5e26a16e109ccbc0a66a0f05979ed70098e",
+      "seed": 101,
+      "temperature": 0.2,
+      "judgments": 480
+    },
+    {
+      "file": "raw/judgments/qwen38-pass-2.csv",
+      "pass_id": "qwen38-pass-2",
+      "judge_model": "qwen3.8:27b-q4_K_M",
+      "judge_model_digest": "25b843619e944cd0ae6069f94ff4e5e26a16e109ccbc0a66a0f05979ed70098e",
+      "seed": 202,
+      "temperature": 0.2,
+      "judgments": 480
+    },
+    {
+      "file": "raw/judgments/flash-next-pass-1.csv",
+      "pass_id": "strata-iq3-xxs-pass-1",
+      "judge_model": "qwen3.8-flash-next-iq3_xxs",
+      "judge_model_digest": "",
+      "seed": 303,
+      "temperature": 0.2,
+      "judgments": 480
+    },
+    {
+      "file": "raw/judgments/flash-next-pass-2.csv",
+      "pass_id": "strata-iq3-xxs-pass-2",
+      "judge_model": "qwen3.8-flash-next-iq3_xxs",
+      "judge_model_digest": "",
+      "seed": 404,
+      "temperature": 0.2,
+      "judgments": 480
+    }
+  ],
+  "hardware": {
+    "gpu": "NVIDIA GeForce RTX 5090 Laptop GPU",
+    "gpu_memory_mib": 24463,
+    "gpu_driver": "616.92",
+    "ollama_version": "0.40.3"
+  },
+  "publication_exclusions": [
+    "image_height_px",
+    "image_sha256",
+    "image_size_bytes",
+    "image_width_px"
+  ]
+}

@@ -1,0 +1,31 @@
+# Private/local research data (images, source tables, pilot runs, manifests)
+local-data/
+
+# Local credentials
+.secrets/
+.env
+.env.*
+
+# Generated outputs
+outputs/
+reports/private/
+*.inspect.ndjson
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local tool/runtime scratch
+.cache/
+.tmp/
+
+# JavaScript dependencies
+node_modules/

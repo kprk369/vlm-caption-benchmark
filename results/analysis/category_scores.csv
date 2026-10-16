@@ -1,0 +1,25 @@
+﻿caption_model,caption_model_label,category,captions,mean_accuracy,mean_coverage,mean_clarity,mean_quality,final_compliant_usable_rate
+gemma3:4b-it-q8_0,Gemma 3 4B Q8_0,animal,20,4.2,4.3375,4.65,4.3958,0.75
+gemma3:4b-it-q8_0,Gemma 3 4B Q8_0,complex_text_heavy,20,3.9375,4.225,4.675,4.2792,0.65
+gemma3:4b-it-q8_0,Gemma 3 4B Q8_0,indoor_scene,20,3.7875,4.15,4.6,4.1792,0.6
+gemma3:4b-it-q8_0,Gemma 3 4B Q8_0,objects_technology,20,3.5375,4.075,4.5375,4.05,0.45
+gemma3:4b-it-q8_0,Gemma 3 4B Q8_0,outdoor_scene,20,4.1125,4.3625,4.6375,4.3708,0.85
+gemma3:4b-it-q8_0,Gemma 3 4B Q8_0,people_actions,20,3.975,4.425,4.6125,4.3375,0.65
+gemma4:12b-it-q8_0,Gemma 4 12B Q8_0,animal,20,4.6125,4.6375,4.9875,4.7458,1.0
+gemma4:12b-it-q8_0,Gemma 4 12B Q8_0,complex_text_heavy,20,4.6125,4.625,4.9875,4.7417,0.95
+gemma4:12b-it-q8_0,Gemma 4 12B Q8_0,indoor_scene,20,4.6375,4.7,5.0,4.7792,0.95
+gemma4:12b-it-q8_0,Gemma 4 12B Q8_0,objects_technology,20,4.675,4.6875,4.9875,4.7833,0.95
+gemma4:12b-it-q8_0,Gemma 4 12B Q8_0,outdoor_scene,20,4.7625,4.85,5.0,4.8708,1.0
+gemma4:12b-it-q8_0,Gemma 4 12B Q8_0,people_actions,20,4.7,4.7875,4.9875,4.825,1.0
+qwen3-vl:2b-instruct-q8_0,Qwen3-VL 2B Q8_0,animal,20,4.4875,4.3375,4.05,4.2917,0.0
+qwen3-vl:2b-instruct-q8_0,Qwen3-VL 2B Q8_0,complex_text_heavy,20,4.2875,4.3,4.05,4.2125,0.0
+qwen3-vl:2b-instruct-q8_0,Qwen3-VL 2B Q8_0,indoor_scene,20,4.0625,4.0,3.925,3.9958,0.0
+qwen3-vl:2b-instruct-q8_0,Qwen3-VL 2B Q8_0,objects_technology,20,4.3875,4.225,3.9375,4.1833,0.0
+qwen3-vl:2b-instruct-q8_0,Qwen3-VL 2B Q8_0,outdoor_scene,20,4.65,4.4625,4.6125,4.575,0.0
+qwen3-vl:2b-instruct-q8_0,Qwen3-VL 2B Q8_0,people_actions,20,4.6375,4.6,4.6,4.6125,0.0
+qwen3.8:27b-q4_K_M,Qwen3.8 27B Q4_K_M,animal,20,4.8125,4.8625,4.9875,4.8875,1.0
+qwen3.8:27b-q4_K_M,Qwen3.8 27B Q4_K_M,complex_text_heavy,20,4.8,4.8125,5.0,4.8708,0.95
+qwen3.8:27b-q4_K_M,Qwen3.8 27B Q4_K_M,indoor_scene,20,4.75,4.8625,5.0,4.8708,0.95
+qwen3.8:27b-q4_K_M,Qwen3.8 27B Q4_K_M,objects_technology,20,4.7125,4.825,4.95,4.8292,1.0
+qwen3.8:27b-q4_K_M,Qwen3.8 27B Q4_K_M,outdoor_scene,20,4.925,4.925,5.0,4.95,1.0
+qwen3.8:27b-q4_K_M,Qwen3.8 27B Q4_K_M,people_actions,20,4.8875,4.925,4.95,4.9208,1.0

@@ -1,0 +1,17 @@
+﻿comparison,metric,n,exact_agreement,within_one_agreement,mean_absolute_difference,pearson,spearman,weighted_kappa
+Qwen 27B repeatability,accuracy,480,0.7833,0.9917,0.2271,0.8459,0.8121,0.8459
+Qwen 27B repeatability,coverage,480,0.8646,1.0,0.1354,0.841,0.7951,0.8396
+Qwen 27B repeatability,clarity,480,0.9021,0.9979,0.1,0.9106,0.8503,0.91
+Qwen 27B repeatability,usable,480,0.9375,1.0,0.0625,,,0.743
+Flash-Next repeatability,accuracy,480,0.8542,0.9979,0.1479,0.8012,0.7705,0.7995
+Flash-Next repeatability,coverage,480,0.8063,1.0,0.1938,0.6798,0.6483,0.6793
+Flash-Next repeatability,clarity,480,0.9333,1.0,0.0667,0.9161,0.7615,0.916
+Flash-Next repeatability,usable,480,0.9854,1.0,0.0146,,,0.8694
+Cross-judge pass 1,accuracy,480,0.6188,0.9479,0.4417,0.5599,0.5215,0.5238
+Cross-judge pass 1,coverage,480,0.6625,0.9917,0.3479,0.5278,0.4602,0.514
+Cross-judge pass 1,clarity,480,0.7667,0.9792,0.2542,0.7597,0.5302,0.7125
+Cross-judge pass 1,usable,480,0.9021,1.0,0.0979,,,0.4609
+Cross-judge pass 2,accuracy,480,0.6042,0.9583,0.4458,0.5708,0.514,0.5246
+Cross-judge pass 2,coverage,480,0.6875,0.9938,0.3187,0.5351,0.4962,0.5237
+Cross-judge pass 2,clarity,480,0.7833,0.9854,0.2333,0.77,0.5486,0.7298
+Cross-judge pass 2,usable,480,0.9083,1.0,0.0917,,,0.5093

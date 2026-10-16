@@ -1,0 +1,7 @@
+﻿higher_ranked_model,higher_ranked_model_label,comparison_model,comparison_model_label,paired_mean_quality_difference,difference_ci95_low,difference_ci95_high,ci_excludes_zero,paired_images
+qwen3.8:27b-q4_K_M,Qwen3.8 27B Q4_K_M,gemma4:12b-it-q8_0,Gemma 4 12B Q8_0,0.0972,0.0493,0.1486,True,120
+qwen3.8:27b-q4_K_M,Qwen3.8 27B Q4_K_M,qwen3-vl:2b-instruct-q8_0,Qwen3-VL 2B Q8_0,0.5764,0.4639,0.7049,True,120
+qwen3.8:27b-q4_K_M,Qwen3.8 27B Q4_K_M,gemma3:4b-it-q8_0,Gemma 3 4B Q8_0,0.6194,0.5375,0.7021,True,120
+gemma4:12b-it-q8_0,Gemma 4 12B Q8_0,qwen3-vl:2b-instruct-q8_0,Qwen3-VL 2B Q8_0,0.4792,0.3548,0.6187,True,120
+gemma4:12b-it-q8_0,Gemma 4 12B Q8_0,gemma3:4b-it-q8_0,Gemma 3 4B Q8_0,0.5222,0.4437,0.6,True,120
+qwen3-vl:2b-instruct-q8_0,Qwen3-VL 2B Q8_0,gemma3:4b-it-q8_0,Gemma 3 4B Q8_0,0.0431,-0.0965,0.1757,False,120

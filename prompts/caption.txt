@@ -1,0 +1,7 @@
+Describe only what is visibly present in the image.
+
+Output exactly one line containing exactly 8 unique factual phrases. Separate the phrases using a comma followed by a space. Do not use commas inside a phrase. Do not use sentences, periods, semicolons, bullets, numbering, or line breaks.
+
+Keep every phrase under 10 words. Cover the main objects, actions, colors, spatial relationships, setting, and clearly readable text. Do not repeat information. Do not list absent things. Do not guess identities, locations, brands, or unreadable text.
+
+Output only the 8 comma-separated phrases.

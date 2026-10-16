@@ -1,0 +1,5 @@
+﻿pass,judge_family,seed,judgments,mean_accuracy,mean_coverage,mean_clarity,usable_rate,mean_wall_time_seconds,mean_generation_tokens_per_second,total_gpu_energy_wh,peak_gpu_memory_mib,peak_gpu_temperature_c,peak_system_ram_gib
+qwen_pass_1,Qwen3.8 27B Q4_K_M,101,480,4.4271,4.5854,4.5854,0.8604,6.3325,32.7938,78.3281,17274.0,72.0,38.7771
+qwen_pass_2,Qwen3.8 27B Q4_K_M,202,480,4.4292,4.5833,4.6063,0.8562,6.5623,31.1004,76.1182,17216.0,65.0,21.9245
+strata_pass_1,Qwen3.8-Flash-Next IQ3_XXS,303,480,4.4688,4.4958,4.7938,0.9417,2.4919,112.7638,25.6723,22071.0,68.0,56.0211
+strata_pass_2,Qwen3.8-Flash-Next IQ3_XXS,404,480,4.5,4.5021,4.8021,0.9396,2.4644,113.9046,25.5446,22071.0,70.0,55.5859
