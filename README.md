@@ -5,6 +5,13 @@ vision-language models to generate detailed image labels. Each model captioned
 the same 120-image sample using one frozen prompt. Four blinded VLM-judge passes
 then scored every caption for accuracy, coverage, clarity, and usability.
 
+## Main study
+
+[**Image Captioning on a Laptop: Comparing the Quality and Efficiency of Local AI Models**](paper/main-study.pdf)
+
+The main study includes the methodology, results, prompts, and supplementary figures.
+This private PDF backup contains an example photograph; standalone image files remain excluded.
+
 ## Final experiment 
 
 - 120 images across six balanced sampling strata
