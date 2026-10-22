@@ -10,7 +10,7 @@ then scored every caption for accuracy, coverage, clarity, and usability.
 [**Image Captioning on a Laptop: Comparing the Quality and Efficiency of Local AI Models**](paper/main-study.pdf)
 
 The main study includes the methodology, results, prompts, and supplementary figures.
-This private PDF backup contains an example photograph; standalone image files remain excluded.
+This PDF contains an example photograph; standalone image files remain excluded.
 
 ## Final experiment 
 
