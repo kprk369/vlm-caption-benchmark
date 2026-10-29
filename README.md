@@ -10,10 +10,10 @@ then scored every caption for accuracy, coverage, clarity, and usability.
 [**Image Captioning on a Laptop: Comparing the Quality and Efficiency of Local AI Models**](paper/main-study.pdf)
 
 The main study includes the methodology, results, prompts, and supplementary figures.
-The PDF reproduces benchmark photograph `image_005.jpg` in Figure 3 (page 5).
-Standalone benchmark image files are excluded, but this embedded photograph is
-distributed inside the PDF. See [Third-party content and rights](THIRD_PARTY_NOTICES.md)
-for the licensing scope and unresolved reproduction-permission status.
+The current PDF excludes benchmark photographs and retains the four unedited
+caption examples as model-generated text. Earlier PDF versions included an
+example photograph and remain in Git history. See
+[Third-party content and rights](THIRD_PARTY_NOTICES.md).
 
 ## Final experiment 
 
@@ -65,9 +65,9 @@ See [Reproducibility](docs/REPRODUCIBILITY.md) for a new end-to-end run and
 ## Data availability
 
 Standalone Unsplash image files, Dataset rows, source descriptions, URLs, and
-image hashes are not included. The study PDF is an explicit exception: it
-contains one benchmark photograph in Figure 3. The repository also publishes
-sanitized experimental outputs with anonymous benchmark image IDs. See
+image hashes are not included in the current version. The current study PDF
+also excludes source photographs; its charts and caption examples are retained.
+The repository publishes sanitized experimental outputs with anonymous benchmark image IDs. See
 [Data handling](docs/DATA.md) and [Third-party content and rights](THIRD_PARTY_NOTICES.md).
 
 ## Interpretation limits

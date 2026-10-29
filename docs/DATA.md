@@ -21,23 +21,19 @@ are not distributed as standalone repository files:
 Users must obtain the Unsplash Dataset independently and accept its applicable
 terms. This repository does not grant rights to any input image or Dataset row.
 
-## Photograph embedded in the study PDF
+## Current study PDF and caption examples
 
-`paper/main-study.pdf` reproduces one benchmark photograph, anonymous ID
-`image_005.jpg`, in Figure 3 on page 5. Although the standalone source image is
-not committed, the photograph is distributed as part of the downloadable PDF.
-The repository therefore must not be described as excluding all image content.
+The current `paper/main-study.pdf` does not reproduce benchmark photographs.
+The former example photograph, anonymous ID `image_005.jpg`, has been removed.
+The four unedited captions generated for that image remain as text, together
+with the analysis charts and tables. Readers cannot independently verify the
+captions' visual accuracy from the paper alone because the source image is
+withheld. No caption outputs or benchmark scores were changed by this removal.
 
-The paper's statement that the example image is excluded from the repository
-does not describe the embedded reproduction: only the standalone source file is
-excluded. This documentation records that distinction; the paper itself has
-not been revised.
-
-Separate authorization to reproduce this particular photograph in a distributed
-report has not been verified or documented in this repository. Attribution,
-inclusion in a research paper, and a repository notice do not establish that
-authorization. Its inclusion is not a claim that reproduction permission has
-been established. See [Third-party content and rights](../THIRD_PARTY_NOTICES.md).
+Earlier PDF versions contained the photograph. This replacement updates the
+current branch, not Git history: those historical PDFs may still be retrieved
+from earlier commits. No claim is made that all historical copies have been
+removed. See [Third-party content and rights](../THIRD_PARTY_NOTICES.md).
 
 ## Public experimental records
 
@@ -49,8 +45,8 @@ The public files retain anonymous IDs such as `image_001.jpg`, sampling strata,
 model identifiers and digests, prompts/settings hashes, generated captions,
 scores, failures, timing, tokens, and systems telemetry. They exclude source
 URLs, licensed descriptions, image bytes, hashes, dimensions, and raw service
-responses. These exclusions describe the structured experimental records, not
-the embedded photograph in the study PDF described above.
+responses. The current study PDF also excludes source photographs, as described
+above. Historical PDF versions are a separate exception noted above.
 
 ## Sampling strata
 

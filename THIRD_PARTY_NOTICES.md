@@ -18,27 +18,23 @@ particularly Sections 1.B, 3, and 7. The Dataset Terms and the general Unsplash
 website license should not be treated as interchangeable permissions for
 Dataset-sourced content.
 
-## Photograph reproduced inside the paper
+## Current paper: source photograph removed
 
-- Distributed file: [`paper/main-study.pdf`](paper/main-study.pdf).
-- Location: Figure 3, page 5.
-- Benchmark identifier: `image_005.jpg`.
-- Source recorded by the project: Unsplash Lite Dataset 1.4.1.
-- Photographer attribution and separate reproduction authorization: not verified
-  or documented in this repository.
+The current [`paper/main-study.pdf`](paper/main-study.pdf) excludes benchmark
+photographs. The former Figure 3 photograph (`image_005.jpg`) was removed; the
+four model-generated caption examples remain as text. The study's charts,
+tables, and numerical results are retained. The source photograph is not
+available for visual verification from the current paper.
 
-The photograph remains third-party content. This project does not claim
-ownership of it or grant a right to extract, reuse, or redistribute it. The
-absence of a standalone image file does not mean that the PDF excludes the
-photograph.
+The project does not claim ownership of, relicense, or grant reuse rights to
+the source photographs or Dataset contents.
 
-**Unresolved permission status:** retaining the photograph and publishing this
-notice do not resolve whether its reproduction is authorized. Written
-permission or another applicable, verified rights basis is still needed to
-establish authorization. This notice must not be represented as permission
-from Unsplash or the photographer, or as a declaration of legal compliance.
+## Historical PDF versions
 
-The paper has been retained unchanged. Its statement that the example image
-is excluded should not be read as applying to the embedded PDF reproduction;
-only the standalone source image is excluded. See [Data handling](docs/DATA.md)
-for the full distribution description.
+Earlier commits contain PDFs that reproduced `image_005.jpg`, sourced from
+Unsplash Lite Dataset 1.4.1. Separate reproduction authorization was not verified
+or documented. Replacing the current PDF does not remove those versions from
+Git history or any previously downloaded copies. This update does not assert
+that historical distribution was authorized or that all copies were removed.
+
+See [Data handling](docs/DATA.md) for the current distribution description.
